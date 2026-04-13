@@ -36,7 +36,7 @@ BLUFF_WIN_BONUS       = 0.5    # bonus per bluff in a winning episode
 RISKY_LIAR_WIN_BONUS  = 0.5    # bonus per risky liar call in a winning episode
 RISKY_BONUS_MAX_COUNT = 2      # cap: at most 2 risky actions contribute bonus
 SHUFFLE_PROB          = 0.5    # probability of shuffling the action list each observation
-NORMALIZE_REWARDS     = True  # set True to separate intermediate/terminal rewards and normalize intermediate by T
+NORMALIZE_REWARDS     = False  # set True to separate intermediate/terminal rewards and normalize intermediate by T
 
 
 # ---------------------------------------------------------------------------
