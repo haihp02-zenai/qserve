@@ -28,7 +28,7 @@ GRPO_CONFIG = {
         "rollouts_per_stage": 1280,  # Reduced for more frequent curriculum progression
     },
     "1_2_b": {
-        "lr": 1e-5,
+        "lr": 1.5e-5,
         "distributed": "ddp",
         "gpu_count": 1,
         "batch_size": 3,
@@ -39,7 +39,7 @@ GRPO_CONFIG = {
         "rollouts_per_stage": 1280,
     },
     "2_4_b": {
-        "lr": 1e-5,
+        "lr": 1.5e-5,
         "distributed": "ddp",
         "gpu_count": 2,
         "batch_size": 2,
@@ -51,7 +51,7 @@ GRPO_CONFIG = {
         "rollouts_per_stage": 1280,
     },
     "4_5_b": {
-        "lr": 8e-6,
+        "lr": 1e-6,
         "distributed": "ddp",
         "gpu_count": 2,
         "batch_size": 2,
@@ -63,7 +63,7 @@ GRPO_CONFIG = {
         "rollouts_per_stage": 1280,
     },
     "5_6_b": {
-        "lr": 8e-6,
+        "lr": 1e-6,
         "distributed": "ddp",
         "gpu_count": 2,
         "batch_size": 2,
@@ -75,7 +75,7 @@ GRPO_CONFIG = {
         "rollouts_per_stage": 1280,
     },
     "6_9_b": {
-        "lr": 8e-6,
+        "lr": 1e-6,
         "distributed": "ddp",
         "gpu_count": 4,
         "batch_size": 2,
