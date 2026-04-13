@@ -190,7 +190,7 @@ _REGISTRY: dict[str, EnvTrainingConfig] = {
 
 # Change this to select a non-default variant for a base environment name.
 _VARIANT_OVERRIDES: dict[str, str] = {
-    # "gin_rummy": "gin_rummy_opponent_modeling",
+    "gin_rummy": "gin_rummy_opponent_modeling",
 }
 
 
